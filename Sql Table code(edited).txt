@@ -1,0 +1,15 @@
+create table accinfo(
+id serial primary key,
+	fname varchar(20),
+	lname varchar(20),
+	uname varchar(20),
+	pass varchar(20),
+	address text,
+	sqrpermeter int,
+	bill int
+)
+create table price(
+id serial primary key,
+	multiplier float,
+	sqr int
+)
